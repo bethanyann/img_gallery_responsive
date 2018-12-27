@@ -1,0 +1,47 @@
+.body{
+	background: url(https://source.unsplash.com/xulIYVIbYIc);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+}
+html { /* this makes the image cover the whole entire html area, instead of cutting off where the content stops */
+	height: 100%;
+}
+#content {
+	text-align: center;
+	padding-top: 25%;
+	/* code for the text shadow */
+	/* x-offset; y-offset;  blur radius; color */
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+				 0px 8px 13px rgba(0,0,0,0.3),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba( 0,0,0,0.2 );
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+.padding{
+	padding: 10px;
+}
+
+.navbar-padding {  /*this is how much padding you need to keep the content from flowing behind a fixed nav bar */
+	padding-top: 70px;
+}
+
+.jumbotron { 
+	color: #2c3e50; 
+	background: #ecf0f1;
+}
+
+.navbar-inverse { background-color: #2c3e50; }
+.navbar-inverse .navbar-nav li a:hover {
+	color: #ecf0f1;
+}

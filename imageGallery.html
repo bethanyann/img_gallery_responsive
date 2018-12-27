@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<title>The Image Gallery</title>
+	<!-- this will have a fixed nav bar at the top, use a jumbotron, use icons, and have a responsive bootstrap image grid --> 
+	<style>
+	
+	</style>
+	<!-- colors: dark blue: #2c3e50; light gray: #ecf0f1 -->
+</head>
+<body class="navbar-padding">
+	<nav class="navbar navbar-inverse navbar-fixed-top"> <!-- the navbar-fixed-top declaration will keep the navbar FIXED at the top while scrolling--> 
+		<div class="container-fluid">
+		<!--navbar header brand-->
+			<div class="navbar-header">
+				<!-- here starts the hamburger code -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span> <!-- each of these spans is a line on the hamburger --> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--this ends the hamburger code -->
+				<a href="#" class="navbar-brand"><i class="fas fa-camera"></i>   IMG</a>
+			</div>
+		<!-- -->
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+			<ul class="nav navbar-nav"><!-- this will collect all of the content on the left side of the navbar. each item that goes in this section will be contained within an <li> tag-->
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>	
+			<ul class="nav navbar-nav navbar-right">
+			<!-- this will collect all of the content on the right side of the navbar --> 
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Log In</a></li>
+			</ul>
+		</div> <!--end div collapse -->
+		</div> <!--end nav container -->
+	</nav> <!-- END NAV --> 
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1><i class="fas fa-camera-retro"></i>   The Image Gallery</h1>
+		</div>
+
+	<!--IMG GALLERY STARTS HERE-->
+	<div class="row">
+		<!-- IMG ROW ONE -->
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<!-- IMG ROW TWO-->
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<!-- IMG ROW THREE-->
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="https://source.unsplash.com/jYGBTAVUBnc" alt="calm ocean wavves">
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="bootstrap.min.js"></script>
+</body>
+</html>
